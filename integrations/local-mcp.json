@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "phosphene": {
+      "command": "/bin/sh",
+      "args": [
+        "-c",
+        "exec python3 \"$HOME/phosphene-skills/plugins/phosphene/bin/phosphene-mcp.py\""
+      ]
+    }
+  }
+}
