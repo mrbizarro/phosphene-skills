@@ -1,0 +1,9 @@
+{
+  "name": "phosphene-mcp",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Phosphene is a free, open-source Mac app for making AI videos, pictures, speech and songs offline. Run LTX-2.5 and MiniMax H3 (Hailuo) locally on Apple Silicon. No cloud, no API key, no NVIDIA GPU. Works with Claude Code, Codex and any MCP agent.",
+  "homepage": "https://phosphene.video/?utm_source=lobehub&utm_medium=referral",
+  "repository": "https://github.com/mrbizarro/phosphene-skills",
+  "license": "MIT"
+}
