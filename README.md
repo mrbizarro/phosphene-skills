@@ -25,3 +25,15 @@ Source in `plugins/phosphene/`. Privacy: everything runs on your Mac and nothing
 - [Local MCP configuration and installation](integrations/llms-install.md)
 - [Manus compatibility notes](integrations/manus.md)
 - [Directory listing copy](integrations/DIRECTORY_COPY.md)
+
+## Where to find Phosphene
+
+Checked on 9 November 2026.
+
+Live now:
+- [skills.sh](https://www.skills.sh/mrbizarro/phosphene-skills/phosphene): install with `npx skills add mrbizarro/phosphene-skills`.
+- [awesome-mlx](https://github.com/antranapp/awesome-mlx#demo): Phosphene is listed; [PR #59](https://github.com/antranapp/awesome-mlx/pull/59) is merged.
+
+Submitted, awaiting review (coming soon only if accepted; no launch date promised):
+- [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers/pull/18931): coming soon, PR #18931 is open.
+- [awesome-mlx by raullenchai](https://github.com/raullenchai/awesome-mlx/issues/44): coming soon, request #44 is open.
