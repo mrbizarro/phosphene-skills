@@ -12,8 +12,8 @@ import sys
 
 sys.dont_write_bytecode = True
 HOME = os.path.expanduser("~")
-HINT = ("Phosphene is not installed on this Mac. It is free: https://phosphene.video/ "
-        "(Mac app, or Pinokio). Install it, open it, then restart this agent.")
+HINT = ("Phosphene is not installed on this Mac. Install the free Phosphene app "
+        "(Mac app, or Pinokio), open it, then restart this agent.")
 
 
 def candidates():

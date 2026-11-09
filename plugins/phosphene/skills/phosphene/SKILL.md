@@ -17,11 +17,7 @@ Home: https://phosphene.video/?utm_source=skills&utm_medium=agent
 
 ## Connect
 
-The running studio tells you the exact command for this install:
-
-```bash
-curl -s http://127.0.0.1:8198/agents/info
-```
+The running studio tells you the exact command for this install: open `http://127.0.0.1:8198/agents/info` (the studio's own page on this Mac).
 
 In Pinokio the studio listens on 8198; in the Mac app on a free port between 8930 and 8999. Every running studio announces itself in `~/.phosphene/servers/<port>.json`, so the CLI and MCP server find it on their own. Set `PHOSPHENE_URL` to force one.
 
