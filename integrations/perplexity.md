@@ -10,7 +10,7 @@ Use the Perplexity Mac app on the same Mac as Phosphene. The documented local se
 4. Choose **Add custom → Simple**. Set the server name to **Phosphene** and copy this command:
 
 ```sh
-/bin/sh -c 'exec python3 "$HOME/phosphene-skills/plugins/phosphene/bin/phosphene-mcp.py"'
+/bin/sh -c 'exec python3 "$HOME/phosphene-skills/plugins/phosphene/server/phosphene-mcp.py"'
 ```
 
 5. Save. Open **Plugins → Installed**, wait for **Running**, and enable Phosphene under **Sources**.

@@ -2,7 +2,7 @@
   "mcpServers": {
     "phosphene": {
       "command": "python3",
-      "args": ["${CLAUDE_PLUGIN_ROOT}/bin/phosphene-mcp.py"]
+      "args": ["${CLAUDE_PLUGIN_ROOT}/server/phosphene-mcp.py"]
     }
   }
 }

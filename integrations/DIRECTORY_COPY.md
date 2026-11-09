@@ -8,7 +8,7 @@ Free AI video, pictures and songs, made offline on your Mac. Works with Claude C
 
 Website: https://phosphene.video/
 Repository: https://github.com/mrbizarro/phosphene-skills
-Server: plugins/phosphene/bin/phosphene-mcp.py
+Server: plugins/phosphene/server/phosphene-mcp.py
 Transport: local stdio. Requires Apple Silicon Mac, Python 3 and an installed, running Phosphene Studio. No public remote MCP endpoint.
 Privacy: https://phosphene.video/privacy/
 Support: https://phosphene.video/contact/
