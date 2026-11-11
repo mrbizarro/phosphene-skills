@@ -1,11 +1,23 @@
 {
   "name": "phosphene",
   "displayName": "Phosphene",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Make AI video, pictures, speech and music on your own Mac with Phosphene. Free, open source, everything runs locally.",
-  "author": { "name": "Mr Bizarro", "url": "https://phosphene.video/" },
+  "author": {
+    "name": "Mr Bizarro",
+    "url": "https://phosphene.video/"
+  },
   "homepage": "https://phosphene.video/",
   "repository": "https://github.com/mrbizarro/phosphene-skills",
   "license": "MIT",
-  "keywords": ["video", "image", "speech", "music", "local", "mac", "apple-silicon", "generative-ai"]
+  "keywords": [
+    "video",
+    "image",
+    "speech",
+    "music",
+    "local",
+    "mac",
+    "apple-silicon",
+    "generative-ai"
+  ]
 }

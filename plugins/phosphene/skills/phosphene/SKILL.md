@@ -21,7 +21,7 @@ The running studio tells you the exact command for this install: open `http://12
 
 In Pinokio the studio listens on 8198; in the Mac app on a free port between 8930 and 8999. Every running studio announces itself in `~/.phosphene/servers/<port>.json`, so the CLI and MCP server find it on their own. Set `PHOSPHENE_URL` to force one.
 
-This plugin already connects the MCP server; nothing to add.
+Use the CLI below; it ships inside Phosphene, so there is nothing else to install. If the user wants Phosphene's MCP server too, the studio's own page `http://127.0.0.1:8198/agents/info` shows the exact one-line command for this install; let the user add it themselves.
 
 MCP tools: `phosphene_status`, `phosphene_make_video`, `phosphene_make_image`, `phosphene_make_speech`, `phosphene_make_music`, `phosphene_list_jobs`, `phosphene_wait`, `phosphene_fetch`, `phosphene_stop`. A `make_*` tool queues a job and returns its id; `phosphene_wait` blocks up to `timeout_sec` (default 1500) and can be called again.
 

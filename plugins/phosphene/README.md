@@ -2,7 +2,7 @@
 
 Make AI video (with its own sound), pictures, speech and music on your own Mac, from Claude. Phosphene is a free, open-source studio for Apple Silicon: https://phosphene.video/
 
-This plugin connects Claude to the Phosphene you already run on your Mac. Ask for a clip, a poster, a voice line or a song; Claude queues it in Phosphene, waits for the render, and hands you the files.
+This plugin teaches Claude to use the Phosphene you already run on your Mac. Ask for a clip, a poster, a voice line or a song; Claude queues it in Phosphene, waits for the render, and hands you the files.
 
 ## What you need
 
@@ -19,20 +19,9 @@ The plugin finds Phosphene by itself (`~/Library/Application Support/Phosphene` 
 /plugin install phosphene@phosphene-skills
 ```
 
-## Tools
+## What it does
 
-| Tool | What it does |
-|---|---|
-| `phosphene_status` | Is Phosphene running, Free or Pro, which engines, what is rendering (read-only) |
-| `phosphene_make_video` | Queue a video clip (text or picture to video) |
-| `phosphene_make_image` | Queue still images |
-| `phosphene_make_speech` | Text to speech |
-| `phosphene_make_music` | A song or an instrumental |
-| `phosphene_open_cut` | Hand a finished edit to Phosphene's Editor |
-| `phosphene_list_jobs` | Running, queued and recent jobs (read-only) |
-| `phosphene_wait` | Wait for a render to finish (read-only) |
-| `phosphene_fetch` | Copy finished files into a folder |
-| `phosphene_stop` | Stop the render in progress |
+The plugin adds one skill. It teaches Claude to use the small command-line tool that ships inside Phosphene (`agents/phosphene_cli.py`, standard-library Python): check the studio, queue a clip, pictures, speech or a song, wait for the render and copy the files where you want them. The plugin itself contains no program; it only describes how to use the one Phosphene already has.
 
 Example prompts: "Make a five-second clip of a night ferry crossing a dark harbour in rain, with the sound of the horn." / "Make three 16:9 stills of a red tram poster." / "Read this paragraph aloud with the ryan voice."
 
