@@ -10,7 +10,7 @@
   "plugins": [
     {
       "name": "phosphene",
-      "source": "./plugins/phosphene-claude",
+      "source": "./plugins/phosphene",
       "description": "Make AI video, pictures, speech and music on your own Mac with Phosphene. Free, open source, everything runs locally.",
       "category": "creative"
     }
