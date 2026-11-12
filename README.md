@@ -8,6 +8,8 @@ npx skills add mrbizarro/phosphene-skills
 
 The skill teaches an agent (Claude Code, Codex and others) to drive a running Phosphene studio through its local CLI and MCP server. Phosphene itself: https://github.com/mrbizarro/Phosphene
 
+**Will it run on your Mac?** [phosphene.video/mac-requirements](https://phosphene.video/mac-requirements/?utm_source=github&utm_medium=phosphene-skills) shows what each memory size can make and how long a clip takes.
+
 ## Claude Code plugin
 
 The same skill, plus the MCP server wired up for you, installs as a plugin (needs Phosphene installed on the Mac):
